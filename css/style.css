@@ -9,7 +9,7 @@ File Description:Main CSS file of the template */
 /* Typography
 ----------------------------------------------------------------------------- */
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 }
 .site-name {
 	font-family: 'Raleway', sans-serif;
@@ -19,13 +19,12 @@ body {
 	height: 100%;
 }
 body {
-	font-size: 15px;
+	font-size: 17px;
 	line-height: 1.50;
 	color: #333333;
 	background-color: #ffffff;
 	position: relative;
 }
-h1,
 h2,
 h3,
 h4,
@@ -34,6 +33,7 @@ h6 {
 	color: #333333;
 }
 h1 {
+	color: #F16421;
 	font-size: 38px;
 	font-weight: 700;
 	margin-bottom: 20px;
@@ -64,10 +64,10 @@ h4 span {
 	color: #339BEB;
 }
 .text-colored {
-	color: #55acee;
+	color: #F16421;
 }
 a {
-	color: #55acee;
+	color: #F16421;
 }
 a:hover {
 	color: #339BEB;
@@ -152,9 +152,8 @@ blockquote {
 	z-index: 2;
 }
 .subfooter {
-	background-color: #fafafa;
+	background-color: #222222;
 	border-top: 1px solid #f3f3f3;
-	border-bottom: 1px solid #f3f3f3;
 	padding: 40px 0;
 }
 .section {
@@ -169,7 +168,7 @@ blockquote {
 	color: #ffffff;
 }
 .default-bg.blue {
-	background-color: #55acee;
+	background-color: #F16421;
 }
 .translucent-bg {
 	color: #ffffff;
@@ -226,7 +225,7 @@ blockquote {
 	background-color: rgba(0, 0, 0, 0.7);
 }
 .translucent-bg.blue:after {
-	background-color: rgba(85, 172, 238, 0.7);
+	background-color: rgba(241, 100, 33, 0.7);
 }
 .translucent-bg .container {
 	z-index: 3;
@@ -290,6 +289,8 @@ blockquote {
 }
 .subfooter p {
 	margin-bottom: 0;
+	font-size: 18px;
+	color : #fafafa;
 }
 
 /* Template Components
@@ -311,13 +312,13 @@ blockquote {
 	transition: all 0.2s ease-in-out;
 }
 .btn-default {
-	color: #55acee;
+	color: #F16421;
 	border: 1px solid #cccccc;
 }
 .btn-default:hover {
 	color: #ffffff;
-	background-color: #339BEB;
-	border-color: #339BEB;
+	background-color: #F16421;
+	border-color: #F16421;
 }
 
 /* Collapse
@@ -348,7 +349,7 @@ blockquote {
 	padding: 12px 35px 12px 15px;
 	display: inline-block;
 	width: 100%;
-	background-color: #55acee;
+	background-color: #F16421;
 	color: #ffffff;
 	position: relative;
 	text-decoration: none;
@@ -373,7 +374,7 @@ blockquote {
 }
 .panel-heading a:hover {
 	text-decoration: none;
-	background-color: #55acee;
+	background-color: #F16421;
 	color: #ffffff;
 }
 .panel-title a i {
@@ -387,8 +388,8 @@ blockquote {
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus,
 .nav-pills > li > a:hover {
-	background-color: #55acee;
-	border-color: #55acee;
+	background-color: #F16421;
+	border-color: #F16421;
 	color: #ffffff;
 }
 .nav-pills > li > a {
@@ -427,7 +428,7 @@ textarea {
 	border-radius: 0px;
 }
 .modal-header {
-	background-color: #55acee;
+	background-color: #F16421;
 	color: #ffffff;
 }
 .modal-header h4 {
@@ -476,11 +477,11 @@ textarea {
 }
 .main-navigation .navbar-default .navbar-nav > li.active > a {
 	background-color: transparent;
-	color: #55acee;
+	color: #F16421;
 }
 .main-navigation .navbar-default .navbar-nav > li > a:hover,
 .main-navigation .navbar-default .navbar-nav > li.active > a:hover {
-	color: #55acee;
+	color: #F16421;
 }
 @media (min-width:768px) {
 	.main-navigation .navbar-default .navbar-nav > li > a {
@@ -598,7 +599,7 @@ textarea {
 	transition: all 0.2s ease-in-out;
 }
 .social-links li.twitter a:hover {
-	color: #55acee;
+	color: #F16421;
 }
 .social-links li.skype a:hover {
 	color: #00aff0;
@@ -743,3 +744,21 @@ textarea {
  -ms-align-items: center;
  align-items: center;
  margin: 20px 0; }
+
+ /* Under Construction */
+ .form-control {
+    font-size: 17px;
+}
+.btn {
+	font-size: 14px;
+}
+.box {   
+	width: 250px;
+	height : 125px;
+}
+.box img{
+	padding : 20px;
+}
+.pb-clear {
+	padding-bottom: 80px;
+}
